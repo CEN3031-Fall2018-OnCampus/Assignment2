@@ -32,30 +32,15 @@ The MVC concept has many variations and often does not *exactly* follow the patt
 ### Angular.js 
 [**Angular.js**](https://angularjs.org/) is a MVC-based framework (maintained by Google) for developing web applications. Angular makes it (relatively) easy to start building an application by extending HTML so that the markup can describe not only the static webpage but also dynamic behavior. 
 
-Angular would be difficult to succintly describe in this readme. The framework certainly has a learning curve, and you should take some time going through tutorials to understand the basics. Below is a list of resources that may be helpful. 
+Angular would be difficult to succintly describe in this readme. The framework certainly has a learning curve, and you should take some time going through tutorials to understand the basics. 
+- https://angular.io/tutorial
+- https://angular.io/docs
 
-- **Code School**: [Shaping up with AngularJS](https://www.codeschool.com/courses/shaping-up-with-angular-js)
-- **Code Academy**: [Learn AngularJS](https://www.codecademy.com/learn/learn-angularjs)
-- [Tutorial provided from the AngularJS website](https://docs.angularjs.org/tutorial)
-- **Egghead.io's** [videos on AngularJS](https://egghead.io/technologies/angularjs)
 
-You *do not* need to go through all of these, just start to get familiar enough with Angular-specific concepts to complete this assignment, particularly the following: 
-- [ng-model](https://docs.angularjs.org/api/ng/directive/ngModel)
-- [ng-repeat](https://docs.angularjs.org/api/ng/directive/ngRepeat)
-    - $index
-- [ng-click](https://docs.angularjs.org/api/ng/directive/ngClick)
-- [$scope](https://docs.angularjs.org/guide/scope)
 
 ### Assignment 
 As before, We have provided skeleton code that will help guide you in completing this assignment. 
-##### Files provided in Assignment #2
-- index.html
-- app.js
-- listingController.js
-- listingFactory.js
-- README
-- style.css
-- package.json
+
 ##### Orientation to the files provided for this assignment:
 - In basic static HTML websites, **index.html** is the "homepage" or "landing page" when you visit a website. In node web applications, both index.html and app.js are used. 
 - **Index.html** has a basic template for the page and references the CSS frameworks
